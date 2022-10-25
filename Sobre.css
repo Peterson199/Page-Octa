@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter+Tight:ital,wght@0,200;0,300;1,200;1,300;1,400 & display=swap');
+
+body {
+    background-color: rgb(238, 242, 245);
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 60px;
+}
+
+a{
+    color: black;
+}
+
+a:hover {
+    color: rgb(105, 82, 162)
+   
+}
+
+#Contatos-btn {
+    border: 2px solid rgb(105, 82, 162);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#Contatos-btn:hover {
+    background-color: rgb(105, 82, 162);
+    color: white;
+}
+
+.fine {
+    color: rgb(46, 37, 27);
+    text-align: justify;
+    justify-content: left;
+    padding: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-bottom:rgb(105, 82, 162) 1px solid;
+    padding-bottom: 1%;
+
+
+}
+
+#how {
+    padding: 5px;
+    height: 26px;
+    color: rgb(46, 37, 27);
+    border-bottom: rgb(105, 82, 162) 1px solid;
+    padding-bottom: 1%;
+}
+
+p {
+    margin: 10px;
+}
+
+img {
+    margin: 1px;
+    height: 150px;
+    padding: 1px;
+}

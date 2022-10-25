@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter+Tight:ital,wght@0,200;0,300;1,200;1,300;1,400 & display=swap');
+
+body {
+    background-color: rgb(238, 242, 245);
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+li {
+    display: inline-block;
+    margin: 20px;
+
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 60px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 11px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'tight';
+}
+
+span {
+    color: rgb(105, 82, 162);
+}
+
+p {
+    line-height: 20px;
+}
+
+img {
+    width: 450px;
+}
+
+a{
+    color: black;
+}
+
+a:hover {
+    color: rgb(105, 82, 162)
+   
+}
+
+#Contatos-btn {
+    border: 2px solid rgb(105, 82, 162);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#Contatos-btn:hover {
+    background-color: rgb(105, 82, 162);
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(105, 82, 162);
+    font-size: 15px;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 20%;
+    background-color: rgb (105,82,162);
+    color: black;
+    font-style: bold;
+    cursor: pointer;
+}
